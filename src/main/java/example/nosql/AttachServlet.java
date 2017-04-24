@@ -41,7 +41,7 @@ public class AttachServlet extends HttpServlet {
 		} catch (Exception re) {
 			re.printStackTrace();
 			response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
-			return;
+			return;		
 		}
 
 		ResourceServlet servlet = new ResourceServlet();
